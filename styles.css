@@ -557,7 +557,7 @@ nav > div {
   color: #7f9981;
 }
 */
-.venue {
+.venue-section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -567,6 +567,17 @@ nav > div {
   align-items: center:
   justify-content: center;
   text-aslign: center;
+  overflow: hidden;
+}
+.venue-section: :before{
+  content:"";
+  position: ablsolute;
+  inset: 0;
+  background: rgba(20, 35, 40, 0.30);
+}
+.venue-copy{
+  position:relative:
+  Z-index: 2;
 }
 /* --- Closing --- */
 .closing {
