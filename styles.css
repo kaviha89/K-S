@@ -492,7 +492,7 @@ nav > div {
 }
 
 /* --- Venue --- */
-.venue {
+/* .venue {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: stretch;
@@ -556,7 +556,18 @@ nav > div {
   font-size: 90px;
   color: #7f9981;
 }
-
+*/
+.venue {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height:500px;
+  display: flex:
+  align-items: center:
+  justify-content: center;
+  text-aslign: center;
+}
 /* --- Closing --- */
 .closing {
   text-align: center;
