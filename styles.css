@@ -99,7 +99,7 @@ button {
 .welcome h2,
 .centered h2,
 .mem-intro h2,
-.venue h2,
+.venue-section h2,
 .closing h2 {
   font-family: var(--serif);
   font-weight: 400;
@@ -116,7 +116,7 @@ button {
 .welcome h2,
 .centered h2,
 .mem-intro h2,
-.venue h2,
+.venue-section h2,
 .closing h2 {
   font-size: clamp(42px, 6vw, 67px);
   letter-spacing: -0.035em;
@@ -126,7 +126,7 @@ button {
 .cover i,
 .hero i,
 .memories i,
-.venue i,
+.venue-section i,
 .closing i {
   color: var(--rose);
   font-weight: 400;
@@ -557,29 +557,76 @@ nav > div {
   color: #7f9981;
 }
 */
+/* --- Venue background photograph --- */
 .venue-section {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
-  min-height:500px;
-  display: flex:
-  align-items: center:
+  isolation: isolate;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  text-aslign: center;
+  min-height: 560px;
+  width: 100%;
+  padding: 80px 24px;
   overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
 }
-.venue-section: :before{
-  content:"";
-  position: ablsolute;
+
+.venue-section::before {
+  content: "";
+  position: absolute;
   inset: 0;
-  background: rgba(20, 35, 40, 0.30);
-    Z-index: 1;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 35, 40, 0.30),
+    rgba(20, 35, 40, 0.48)
+  );
 }
-.venue-copy{
-  position:relative:
-  Z-index: 2;
+
+.venue-copy {
+  position: relative;
+  z-index: 1;
+  width: min(760px, 100%);
+  margin: auto;
+  color: #fff;
 }
+
+.venue-copy .eyebrow {
+  color: #fff;
+}
+
+.venue-section h2 {
+  color: #fff;
+  font-family: var(--serif);
+  font-size: clamp(48px, 7vw, 76px);
+  font-weight: 400;
+  line-height: 0.98;
+  margin: 18px 0 24px;
+}
+
+.venue-section h2 i {
+  color: #f1d5dc;
+}
+
+.venue-section h3 {
+  color: #fff;
+  font: 500 25px var(--serif);
+  margin: 24px 0 12px;
+}
+
+.venue-copy > p:not(.eyebrow) {
+  color: #fff;
+  font-size: 13px;
+}
+
+.venue-copy .under {
+  color: #fff;
+  margin-left: 15px;
+}
+
 /* --- Closing --- */
 .closing {
   text-align: center;
@@ -754,17 +801,14 @@ footer i {
     left: 10px;
   }
   
-  .venue {
-    grid-template-columns: 1fr;
+  .venue-section {
+    min-height: 500px;
+    padding: 65px 20px;
+    background-position: center center;
   }
-  
-  .venue-copy {
-    padding: 0 0 28px;
-  }
-  
-  .seaside {
-    min-height: 300px;
-    order: -1;
+
+  .venue-section h3 {
+    font-size: 22px;
   }
   
   .ticket > div {
