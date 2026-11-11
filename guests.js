@@ -1,4 +1,3 @@
-// Replace this file in your GitHub repository to publish guest updates.
 const GUESTS = {
   "001": {
     "name": "Mr. De Silva & Mrs. De Silva",
