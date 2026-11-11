@@ -1,222 +1,252 @@
+// Replace this file in your GitHub repository to publish guest updates.
 const GUESTS = {
   "001": {
     "name": "Mr. De Silva & Mrs. De Silva",
-    "table": "1"
+    "table": "10"
   },
   "002": {
     "name": "Mr. Gishanka De Silva & Mrs. Ramona",
-    "table": "1"
+    "table": "10"
   },
   "003": {
     "name": "Mr. Peries & Mrs. Peries",
-    "table": "1"
+    "table": "10"
   },
   "004": {
     "name": "Mr. Nandasena & Mrs. Nandasena",
-    "table": "1"
+    "table": "10"
   },
   "005": {
     "name": "Miss. Dilani",
-    "table": "1"
+    "table": "10"
   },
   "006": {
     "name": "Mr. Chandana",
-    "table": "1"
+    "table": "10"
   },
   "007": {
     "name": "Mrs. Ayesha",
-    "table": "2"
+    "table": "11"
   },
   "008": {
-    "name": "Mrs. Nayani",
-    "table": "2"
+    "name": "Mrs. Nayanie",
+    "table": "11"
   },
   "009": {
     "name": "Mr. Wasantha",
-    "table": "2"
+    "table": "11"
   },
   "010": {
     "name": "Miss. Hansinee",
-    "table": "2"
+    "table": "11"
   },
   "011": {
     "name": "Mr.Sujeewa Amarasinghe",
-    "table": "2"
+    "table": "11"
   },
   "012": {
     "name": "Mr.Suresh",
-    "table": "2"
+    "table": "11"
   },
   "013": {
     "name": "Mr. Mahendra",
-    "table": "2"
+    "table": "11"
   },
   "014": {
     "name": "Mr.Thandula",
-    "table": "2"
+    "table": "11"
   },
   "015": {
     "name": "Mrs. Janadhi",
-    "table": "2"
+    "table": "11"
   },
   "016": {
     "name": "Mr.Malika",
-    "table": "2"
+    "table": "11"
   },
   "017": {
     "name": "Mrs.Chamila",
-    "table": "3"
+    "table": "12"
   },
   "018": {
     "name": "Mrs. Nalani",
-    "table": "3"
+    "table": "12"
   },
   "019": {
-    "name": "Nipuni",
-    "table": "3"
+    "name": "Miss. Nipuni",
+    "table": "12"
   },
   "020": {
-    "name": "Nishani",
-    "table": "3"
+    "name": "Miss. Nishani",
+    "table": "12"
   },
   "021": {
-    "name": "Jackie",
-    "table": "3"
+    "name": "Mrs. Jackie",
+    "table": "12"
   },
   "022": {
     "name": "Mr. Keerthi",
-    "table": "3"
+    "table": "12"
   },
   "023": {
     "name": "Mrs.Dhammika",
-    "table": "3"
+    "table": "12"
   },
   "024": {
-    "name": "Sunethra",
-    "table": "3"
-  },
-  "026": {
-    "name": "Dinesh Wijethilaka",
-    "table": "3"
+    "name": "Sunethra Ranthunga",
+    "table": "12"
   },
   "027": {
-    "name": "Diluk",
-    "table": "4"
+    "name": "Diluk Dayaratne",
+    "table": "13"
   },
   "028": {
     "name": "Sujeewa Peris",
-    "table": "4"
+    "table": "13"
   },
   "029": {
     "name": "Lalantha",
-    "table": "4"
+    "table": "13"
   },
   "030": {
-    "name": "Sumanadasa",
-    "table": "4"
+    "name": "Mr. Sumanadasa",
+    "table": "13"
   },
   "031": {
-    "name": "Pasindu",
-    "table": "4"
+    "name": "Dinesh Wijethilaka",
+    "table": "13"
   },
   "032": {
-    "name": "Pubudu",
-    "table": "4"
+    "name": "Waruna Withanachchi",
+    "table": "13"
   },
   "033": {
-    "name": "Thamith",
-    "table": "4"
+    "name": "Sameera",
+    "table": "13"
   },
   "034": {
-    "name": "Waruna",
-    "table": "4"
+    "name": "Priyankara",
+    "table": "13"
   },
   "035": {
-    "name": "Sameera",
-    "table": "4"
-  },
-  "036": {
-    "name": "Priyankara",
-    "table": "4"
+    "name": "Daminda Prasad",
+    "table": "13"
   },
   "037": {
     "name": "Dinuka",
-    "table": "5"
+    "table": "14"
   },
   "038": {
-    "name": "Fisal",
-    "table": "5"
+    "name": "Faisal",
+    "table": "14"
   },
   "039": {
     "name": "Prasanna",
-    "table": "5"
+    "table": "14"
   },
   "040": {
     "name": "Anusha",
-    "table": "5"
+    "table": "14"
   },
   "041": {
     "name": "Chinthana",
-    "table": "5"
+    "table": "14"
   },
   "042": {
     "name": "Lakitha",
-    "table": "5"
+    "table": "14"
   },
   "043": {
     "name": "Janaka",
-    "table": "5"
+    "table": "14"
   },
   "044": {
     "name": "Sachintha",
-    "table": "5"
+    "table": "14"
   },
   "045": {
     "name": "Saradha",
-    "table": "5"
-  },
-  "046": {
-    "name": "Daminda",
-    "table": "5"
+    "table": "14"
   },
   "047": {
-    "name": "Chathuranga",
-    "table": "6"
+    "name": "Chameera",
+    "table": "15"
   },
   "048": {
-    "name": "Priyantha",
-    "table": "6"
+    "name": "Mrs.Chameera",
+    "table": "15"
   },
   "049": {
-    "name": "Mrs. Priyantha",
-    "table": "6"
+    "name": "Chathurika Samanthi",
+    "table": "15"
   },
   "050": {
-    "name": "Kasun Dimantha",
-    "table": "6"
+    "name": "Lawandi Buddhika",
+    "table": "15"
   },
   "051": {
-    "name": "Roshani",
-    "table": "6"
+    "name": "Madhura",
+    "table": "15"
   },
   "052": {
-    "name": "Chameera",
-    "table": "6"
+    "name": "Dinesh Wijethilaka",
+    "table": "15"
   },
   "053": {
-    "name": "Mrs.Chameera",
-    "table": "6"
+    "name": "Thamith",
+    "table": "15"
   },
   "054": {
-    "name": "Chathurika",
-    "table": "6"
+    "name": "Pasindu",
+    "table": "15"
   },
   "055": {
-    "name": "Lawandhi",
-    "table": "6"
+    "name": "Pubudu",
+    "table": "15"
   },
-  "056": {
-    "name": "Madhura",
-    "table": "6"
+  "025": {
+    "name": "Rumesh",
+    "table": "12"
+  },
+  "057": {
+    "name": "Chathuranga",
+    "table": "16"
+  },
+  "058": {
+    "name": "Sankalpa Ayya",
+    "table": "16"
+  },
+  "059": {
+    "name": "Athula",
+    "table": "16"
+  },
+  "060": {
+    "name": "Priyantha Dharanagama",
+    "table": "16"
+  },
+  "061": {
+    "name": "Mrs. Priyantha",
+    "table": "16"
+  },
+  "062": {
+    "name": "Kasun Dimantha",
+    "table": "16"
+  },
+  "063": {
+    "name": "Roshani",
+    "table": "16"
+  },
+  "064": {
+    "name": "Chathura Aiyya",
+    "table": "1"
+  },
+  "065": {
+    "name": "Wikum Aiyya",
+    "table": "1"
+  },
+  "066": {
+    "name": "Waruna Aiyya",
+    "table": "1"
   }
 };
+
